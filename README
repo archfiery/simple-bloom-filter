@@ -1,0 +1,5 @@
+simple bloom filter
+
+* http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp
+
+* https://github.com/aappleby/smhasher

@@ -1,0 +1,15 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+SET (CMAKE_CXX_STANDARD 14)
+
+SET (CMAKE_CXX_FLAGS -Wall)
+SET (CMAKE_CXX_FLAGS -w)
+SET (CMAKE_CXX_FLAGS -pedantic)
+
+PROJECT (BloomFilter CXX)
+
+SET (SRC bloom_filter.h Murmurhash3.cpp)
+SET (EXAMPLES examples)
+
+ADD_EXECUTABLE (example ${EXAMPLES}/example.cc ${SRC})
+ADD_EXECUTABLE (example2 ${EXAMPLES}/example2.cc ${SRC})
